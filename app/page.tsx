@@ -1,6 +1,9 @@
+import Social from "@/components/Social";
+
 export default function Home() {
   return (
     <main className="bg-black text-white">
+
 
       {/* HERO */}
       <section className="flex min-h-screen items-center justify-center px-6 text-center">
@@ -37,6 +40,8 @@ export default function Home() {
 
 
 
+
+
       {/* CHI SONO */}
       <section className="mx-auto max-w-5xl px-6 py-32">
 
@@ -69,6 +74,8 @@ export default function Home() {
 
 
 
+
+
       {/* UNIVERSO */}
       <section className="px-6 py-20">
 
@@ -80,6 +87,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
 
 
+
           <div className="rounded-2xl border border-gray-800 p-8">
 
             <h3 className="text-3xl">
@@ -88,14 +96,13 @@ export default function Home() {
 
 
             <p className="mt-6 text-gray-400">
-
               Film, personaggi e mondi immaginari.
               Analizzo estetica, fotografia,
               simbolismo e storytelling.
-
             </p>
 
           </div>
+
 
 
 
@@ -108,11 +115,9 @@ export default function Home() {
 
 
             <p className="mt-6 text-gray-400">
-
               Il linguaggio invisibile delle emozioni.
               Recensioni, materie prime,
               profumi di nicchia e percorso creativo.
-
             </p>
 
           </div>
@@ -129,19 +134,18 @@ export default function Home() {
 
 
             <p className="mt-6 text-gray-400">
-
               Eleganza, identità e dettagli.
               Lo stile come forma di comunicazione personale.
-
             </p>
 
           </div>
 
 
+
         </div>
 
-
       </section>
+
 
 
 
@@ -182,8 +186,8 @@ export default function Home() {
         </ul>
 
 
-
       </section>
+
 
 
 
@@ -204,6 +208,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
 
 
+
           <article className="rounded-2xl border border-gray-800 p-8">
 
             <p className="text-sm text-gray-500">
@@ -211,11 +216,10 @@ export default function Home() {
             </p>
 
             <h3 className="mt-4 text-2xl font-bold">
-              Aemond Targaryen:
-              il profumo del potere
-            </h3>
+              Il profumo di Hannibal Lecter            </h3>
 
           </article>
+
 
 
 
@@ -226,11 +230,11 @@ export default function Home() {
             </p>
 
             <h3 className="mt-4 text-2xl font-bold">
-              Perché un profumo
-              diventa un ricordo
+            Che profumo indossare con questo caldo?
             </h3>
 
           </article>
+
 
 
 
@@ -249,6 +253,7 @@ export default function Home() {
           </article>
 
 
+
         </div>
 
 
@@ -260,8 +265,15 @@ export default function Home() {
 
 
 
-      {/* FOOTER */}
+      {/* SOCIAL */}
+      <Social />
 
+
+
+
+
+
+      {/* FOOTER */}
       <footer className="border-t border-gray-800 px-6 py-12 text-center">
 
 
@@ -270,7 +282,37 @@ export default function Home() {
         </p>
 
 
-        <p className="mt-4 text-sm text-gray-600">
+
+        <div className="mt-8 flex justify-center gap-8">
+
+
+          <a
+            href="https://www.tiktok.com/@il_leviatano"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 transition hover:text-white"
+          >
+            TikTok
+          </a>
+
+
+
+          <a
+            href="https://www.instagram.com/TUO_USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 transition hover:text-white"
+          >
+            Instagram
+          </a>
+
+
+
+        </div>
+
+
+
+        <p className="mt-8 text-sm text-gray-600">
           © 2026
         </p>
 
